@@ -1,8 +1,9 @@
-#datatype measurement,tag,double,dateTime:RFC3339
-test1,test2,test3,time
-mem,host1,64.23,2020-01-01T00:00:00Z
-mem,host2,72.01,2020-01-01T00:00:00Z
-mem,host1,62.61,2020-01-01T00:00:10Z
-mem,host2,72.98,2020-01-01T00:00:10Z
-mem,host1,63.40,2020-01-01T00:00:20Z
-mem,host2,73.77,2020-01-01T00:00:20Z
+#group,false,false,true,true,false,false,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,double,string,string,string,string
+#default,_result,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,shelter,type
+,,0,2020-05-15T18:47:46.649639Z,2020-05-15T19:47:46.649639Z,2020-05-15T18:50:33.262484Z,4,young,dogs,B,pom
+,,0,2020-05-15T18:47:46.649639Z,2020-05-15T19:47:46.649639Z,2020-05-15T18:51:48.852085Z,5,young,dogs,B,pom
+,,0,2020-05-15T18:47:46.649639Z,2020-05-15T19:47:46.649639Z,2020-05-15T18:52:31.597721Z,5,young,dogs,B,pom
+,,0,2020-05-15T18:47:46.649639Z,2020-05-15T19:47:46.649639Z,2020-05-15T18:53:03.635879Z,2,young,dogs,B,pom
+,,0,2020-05-15T18:47:46.649639Z,2020-05-15T19:47:46.649639Z,2020-05-15T18:59:06.027183Z,4,young,dogs,B,pom
