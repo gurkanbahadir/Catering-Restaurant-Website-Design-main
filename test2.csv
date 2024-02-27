@@ -1,4 +1,4 @@
-#group,false,false,true,true,false,false,true,true,true
+#group,false,false,true,false,true,true,true
 #datatype,string,long,dateTime:RFC3339,double,string,string,string
 #default,_result,,,,,,
 ,result,table,_start,_value,_field,_measurement,cpu
