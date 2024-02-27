@@ -1,6 +1,6 @@
 #group,false,false,true,true,false,false,true,true,true
-#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,double,string,string,string
-#default,_result,,,,,,,,
-,result,table,_start,_stop,_time,_value,_field,_measurement,cpu
-,,0,2020-05-15T17:50:41.333237Z,2020-05-15T18:05:41.333237Z,2020-05-15T17:50:50Z,9.389847461865466,usage_system,cpu,cpu-total
-,,0,2020-05-15T17:50:41.333237Z,2020-05-15T18:05:41.333237Z,2020-05-15T17:51:00Z,8.598925134358206,usage_system,cpu,cpu-total
+#datatype,string,long,dateTime:RFC3339,double,string,string,string
+#default,_result,,,,,,
+,result,table,_start,_value,_field,_measurement,cpu
+,,0,2020-05-15T17:50:41.333237Z,usage_system,cpu,cpu-total
+,,0,2020-05-15T17:50:41.333237Z,usage_system,cpu,cpu-total
