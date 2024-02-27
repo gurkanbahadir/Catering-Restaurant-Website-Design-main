@@ -1,6 +1,8 @@
 #group,true,true,true,true
 #datatype,double,double,double,dateTime:RFC3339,
-,,18.965,8.730,23.545,2020-05-15T18:47:46.649639Z
+#default,_result,,,,
+uretim_Ton,ug_cevher_uretim_ons,dizel_enerji_tuketim,dateTime:RFC3339  
+,18.965,8.730,23.545,2020-05-15T18:47:46.649639Z
 ,,18.173,7.699,21.685,2020-06-15T18:47:46.649639Z
 ,,23.349,8.867,23.918,2020-07-15T18:47:46.649639Z
 ,,20.133,9.286,18.358,2020-08-15T18:47:46.649639Z
