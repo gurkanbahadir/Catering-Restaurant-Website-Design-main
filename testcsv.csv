@@ -1,7 +1,7 @@
 #group,false,false,true,true,false,false,true,true,true
 #datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,double,string,string,string,string
 #default,mean,,,,,,,,,
-,result,table,_start,_stop,_time,_value,_field,_measurement,TagName
+,result,table,_start,_stop,_time,_value,_field,_measurement,xVRMS
 ,,0,2023-05-11T09:30:55.000Z,2023-05-11T09:35:55.001Z,2023-05-11T09:33:55.000Z,4.51184988,TagValue_,History,xVRMS
 ,,1,2023-05-11T09:30:55.000Z,2023-05-11T09:35:55.001Z,2023-05-11T09:33:55.000Z,5.188330173,TagValue_,History,yVRMS
 ,,2,2023-05-11T09:30:55.000Z,2023-05-11T09:35:55.001Z,2023-05-11T09:33:55.000Z,4.04090023,TagValue_,History,zVRMS
